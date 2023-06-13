@@ -1,0 +1,92 @@
+*
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+
+   display: block;
+   padding: 20px 64.25px;
+   color:#f0eeee;
+   background: #580505;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 100%;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   width:100%;
+}
+ .navbar a:hover {
+     background: #9c3c23
+ 
+}
+
+.header-background {
+    background: url(/C54/fotos/Nosotros.webp)   no-repeat ;
+    background-size: cover;
+   height: 90%;
+   object-fit:cover;
+   position:absolute;
+   vertical-align:top;
+  max-width: 100%;
+  width: 100%;
+  
+ }
+ .rectangle {
+    backdrop-filter :  blur(0.2rem);
+    background-color:rgba(94, 9, 9, 0.95);
+    border: solid 0.1rem #310202;
+    box-sizing:content-box;
+    height: 15rem;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 350px;
+    margin-bottom: 0;
+}
+        
+
+    
+.Nosotros {
+    color: #ffffff;
+    font-family:"caramel";
+    font-size: 3rem;
+    font-weight: 400;
+    height: 6rem;
+    line-height: 1.2;
+    position: absolute;
+    text-align:right;
+    text-transform:uppercase;
+    white-space: nowrap;
+    width: 1;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+    
+        
+ .info {
+    color:#ffffff;
+    font-family: 'Jacques Francois';
+    font-size: 1.25rem;
+    font-weight:400;
+    text-align: center;
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    
+ }
+ .info a {
+    color: antiquewhite;
+ }
