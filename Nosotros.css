@@ -29,7 +29,7 @@
 }
 
 .header-background {
-    background: url(/fotos/Nosotros.webp)   no-repeat ;
+    background: url(fotos/Nosotros.webp)   no-repeat ;
     background-size: cover;
    height: 90%;
    object-fit:cover;
